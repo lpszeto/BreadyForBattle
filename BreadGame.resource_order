@@ -8,6 +8,12 @@
     {"name":"Greenbean Sprites","order":1,"path":"folders/Objects/Enemy/Greenbean sprite/Greenbean Sprites.yy",},
     {"name":"Toaster","order":4,"path":"folders/Objects/Enemy/Toaster.yy",},
     {"name":"Toaster Sprites","order":1,"path":"folders/Objects/Enemy/Toaster/Toaster Sprites.yy",},
+    {"name":"Projectiles","order":2,"path":"folders/Objects/Projectiles.yy",},
+    {"name":"Projectile Sprites","order":1,"path":"folders/Objects/Projectiles/Projectile Sprites.yy",},
+    {"name":"NPC","order":3,"path":"folders/Objects/NPC.yy",},
+    {"name":"OMB","order":1,"path":"folders/Objects/NPC/OMB.yy",},
+    {"name":"Bread Girl","order":2,"path":"folders/Objects/NPC/Bread Girl.yy",},
+    {"name":"Background tile assets","order":3,"path":"folders/Objects/background/Background tile assets.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oAvoJam","order":1,"path":"objects/oAvoJam/oAvoJam.yy",},
