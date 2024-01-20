@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oStawEnemy",
+  "name": "oBluebroEnemy",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Strawberry",
-    "path": "folders/Objects/Enemy/Strawberry.yy",
+    "name": "Bluebro",
+    "path": "folders/Objects/Enemy/Bluebro.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "straw_idle",
-    "path": "sprites/straw_idle/straw_idle.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
