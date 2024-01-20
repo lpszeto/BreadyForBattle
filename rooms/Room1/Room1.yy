@@ -87,6 +87,9 @@
     {"name":"inst_C3E69A2","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_69A9DD2F","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_68A76637","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4F71F4BD","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_29F8BA6F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5DB23D1E","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -171,6 +174,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C3E69A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBluebroEnemy","path":"objects/oBluebroEnemy/oBluebroEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1216.0,"y":240.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69A9DD2F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oStrawberryEnemy","path":"objects/oStrawberryEnemy/oStrawberryEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1456.0,"y":496.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68A76637","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oToasterBoss","path":"objects/oToasterBoss/oToasterBoss.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":976.0,"y":528.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4F71F4BD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBluebroEnemy","path":"objects/oBluebroEnemy/oBluebroEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1216.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_29F8BA6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBluebroEnemy","path":"objects/oBluebroEnemy/oBluebroEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":912.0,"y":352.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5DB23D1E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oStrawberryEnemy","path":"objects/oStrawberryEnemy/oStrawberryEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":848.0,"y":400.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":68,"SerialiseWidth":120,"TileSerialiseData":[
 10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,10,11,12,13,14,15,16,17,

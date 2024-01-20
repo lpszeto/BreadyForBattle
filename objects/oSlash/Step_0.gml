@@ -12,23 +12,24 @@ if oPlayer.attackStart {
 	image_alpha = 1;
 	cooldown = 24;
 	sprite_index = slashSprite[oPlayer.face];
+	
 	if oPlayer.face == 0 {
 		image_index = oPlayer.image_index;
 		x = oPlayer.x + oPlayer.sprite_width/2;
-		y = oPlayer.y + oPlayer.centerYOffset;// + oPlayer.sprite_height/4;
+		y = oPlayer.y + oPlayer.centerYOffset - oPlayer.sprite_height/4;
 		hitCounted = true;
 	} else if oPlayer.face == 1 {
 		image_index = oPlayer.image_index;
 		x = oPlayer.x - oPlayer.sprite_width/2;
-		y = oPlayer.y + oPlayer.centerYOffset;// + oPlayer.sprite_height/4;
+		y = oPlayer.y + oPlayer.centerYOffset - oPlayer.sprite_height/4;
 	} else if oPlayer.face == 2 {
 		image_index = oPlayer.image_index;
 		x = oPlayer.x - oPlayer.sprite_width/2;
-		y = oPlayer.y + oPlayer.centerYOffset + oPlayer.sprite_height/2;
+		y = oPlayer.y + oPlayer.centerYOffset + oPlayer.sprite_height/4;
 	} else {
 		image_index = oPlayer.image_index;
 		x = oPlayer.x + oPlayer.sprite_width/2;
-		y = oPlayer.y + oPlayer.centerYOffset + oPlayer.sprite_height/2;
+		y = oPlayer.y + oPlayer.centerYOffset + oPlayer.sprite_height/4;
 	}
 	var _hitByAttackNow = ds_list_create();
 	var _hits = instance_place_list(x,y,oEnemy,_hitByAttackNow,false);
@@ -38,7 +39,7 @@ if oPlayer.attackStart {
 			var _hitID = _hitByAttackNow[| i];
 			if (ds_list_find_index(oPlayer.hitByAttack,_hitID) == -1) {
 				ds_list_add(oPlayer.hitByAttack,_hitID);
-				show_debug_message(oPlayer.hitByAttack);
+				show_debug_message(_hitID);
 				with (_hitID) {
 					hp -= 10;
 				}
