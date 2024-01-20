@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oStawEnemy",
+  "name": "oToasterBoss",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Strawberry",
-    "path": "folders/Objects/Enemy/Strawberry.yy",
+    "name": "Toaster",
+    "path": "folders/Objects/Enemy/Toaster.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "straw_idle",
-    "path": "sprites/straw_idle/straw_idle.yy",
+    "name": "toaster_jump",
+    "path": "sprites/toaster_jump/toaster_jump.yy",
   },
   "spriteMaskId": null,
   "visible": true,

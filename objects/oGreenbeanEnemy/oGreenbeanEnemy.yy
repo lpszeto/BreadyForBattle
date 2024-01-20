@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oBluebroEnemy",
+  "name": "oGreenbeanEnemy",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Bluebro",
-    "path": "folders/Objects/Enemy/Bluebro.yy",
+    "name": "Greenbean sprite",
+    "path": "folders/Objects/Enemy/Greenbean sprite.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "bluebro_idle",
-    "path": "sprites/bluebro_idle/bluebro_idle.yy",
+    "name": "greenbean_idle",
+    "path": "sprites/greenbean_idle/greenbean_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
