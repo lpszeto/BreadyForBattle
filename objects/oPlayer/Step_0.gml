@@ -1,5 +1,3 @@
-attackStart = false;
-
 //get inputs
 rightKey = keyboard_check(ord("D"));
 leftKey = keyboard_check(ord("A"));
@@ -8,7 +6,6 @@ downKey = keyboard_check(ord("S"));
 attackKey = mouse_check_button(mb_left);
 
 // Define coordinate locations
-
 
 //player movement 
 #region
@@ -75,6 +72,7 @@ attackKey = mouse_check_button(mb_left);
 	}
 	
 	//set the player sprite
+	attackStart = false;
 	if cooldown <= 0 {
 		attackFace = face;
 		if attackKey {
@@ -89,6 +87,7 @@ attackKey = mouse_check_button(mb_left);
 		} else {
 			mask_index = sprite[3];
 			sprite_index = currentSprite[face];
+			ds_list_clear(hitByAttack);
 		}
 	}
 	
@@ -100,7 +99,7 @@ if mouse_check_button_pressed(mb_right) || jar_break_bool{
 }
 
 if (keyboard_check_pressed(ord("R"))) {
-    var newObj = instance_create_layer(100, 100, "Instances", oStrawJam);
-	newObj.image_xscale = 2;
-	newObj.image_yscale = 2;
+    var newObj = instance_create_layer(x+100, y+centerYOffset, "Instances", oStrawJam);
+	newObj.image_xscale = 1;
+	newObj.image_yscale = 1;
 }

@@ -53,6 +53,7 @@
     {"id":{"name":"oPBJam","path":"objects/oPBJam/oPBJam.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oGreenbeanEnemy","path":"objects/oGreenbeanEnemy/oGreenbeanEnemy.yy",},},
+    {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oSlash","path":"objects/oSlash/oSlash.yy",},},
     {"id":{"name":"oToasterBoss","path":"objects/oToasterBoss/oToasterBoss.yy",},},
     {"id":{"name":"bluebro_atk","path":"sprites/bluebro_atk/bluebro_atk.yy",},},

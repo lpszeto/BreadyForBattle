@@ -30,6 +30,22 @@ if oPlayer.attackStart {
 		x = oPlayer.x + oPlayer.sprite_width/2;
 		y = oPlayer.y + oPlayer.centerYOffset + oPlayer.sprite_height/2;
 	}
+	var _hitByAttackNow = ds_list_create();
+	var _hits = instance_place_list(x,y,oEnemy,_hitByAttackNow,false);
+	if _hits > 0 {
+		for (var i = 0; i < _hits; i++) {
+			//If this instance has not yet been hit by this attack
+			var _hitID = _hitByAttackNow[| i];
+			if (ds_list_find_index(oPlayer.hitByAttack,_hitID) == -1) {
+				ds_list_add(oPlayer.hitByAttack,_hitID);
+				show_debug_message(oPlayer.hitByAttack);
+				with (_hitID) {
+					hp -= 10;
+				}
+			}	
+		}
+	}
+	ds_list_destroy(_hitByAttackNow);
 } 
 
 
