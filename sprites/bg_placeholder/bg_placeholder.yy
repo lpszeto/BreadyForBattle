@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "background",
-    "path": "folders/Objects/background.yy",
+    "path": "folders/Assets/background.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

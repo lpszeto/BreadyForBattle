@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "TitleScreen",
-    "path": "folders/Objects/TitleScreen.yy",
+    "path": "folders/Assets/TitleScreen.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

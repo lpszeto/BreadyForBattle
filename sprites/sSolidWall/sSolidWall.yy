@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Walls",
-    "path": "folders/Objects/Walls.yy",
+    "path": "folders/Assets/Walls.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -32,7 +32,7 @@
   "origin": 0,
   "parent": {
     "name": "Toaster Sprites",
-    "path": "folders/Objects/Enemy/Toaster/Toaster Sprites.yy",
+    "path": "folders/Assets/Enemy/Toaster/Toaster Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

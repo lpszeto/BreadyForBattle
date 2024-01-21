@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Strawberry",
-    "path": "folders/Objects/Enemy/Strawberry.yy",
+    "path": "folders/Assets/Enemy/Strawberry.yy",
   },
   "parentObjectId": {
     "name": "oEnemy",

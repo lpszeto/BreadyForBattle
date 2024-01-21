@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Walls",
-    "path": "folders/Objects/Walls.yy",
+    "path": "folders/Assets/Walls.yy",
   },
   "parentObjectId": null,
   "persistent": false,

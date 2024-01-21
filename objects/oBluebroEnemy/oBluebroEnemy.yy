@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Bluebro",
-    "path": "folders/Objects/Enemy/Bluebro.yy",
+    "path": "folders/Assets/Enemy/Bluebro.yy",
   },
   "parentObjectId": {
     "name": "oEnemy",

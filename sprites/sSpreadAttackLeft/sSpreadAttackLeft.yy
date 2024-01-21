@@ -29,7 +29,7 @@
   "origin": 9,
   "parent": {
     "name": "Spread",
-    "path": "folders/Objects/Player/Spread.yy",
+    "path": "folders/Assets/Player/Spread.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

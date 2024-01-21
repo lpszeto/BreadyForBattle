@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Greenbean sprite",
-    "path": "folders/Objects/Enemy/Greenbean sprite.yy",
+    "path": "folders/Assets/Enemy/Greenbean sprite.yy",
   },
   "parentObjectId": {
     "name": "oEnemy",

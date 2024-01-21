@@ -26,7 +26,7 @@
   "origin": 9,
   "parent": {
     "name": "Greenbean Sprites",
-    "path": "folders/Objects/Enemy/Greenbean sprite/Greenbean Sprites.yy",
+    "path": "folders/Assets/Enemy/Greenbean sprite/Greenbean Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
