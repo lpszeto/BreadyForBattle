@@ -16,7 +16,7 @@ attackKey = mouse_check_button(mb_left);
 	
 	//dash mechanic
 	if (keyboard_check_pressed(vk_space) and canDash) {
-	    moveSpd = 10;
+	    moveSpd = dashSpd;
 		canDash = false;
 		alarm[0] = 10;
 		moveDir = point_direction(0,0,_horizKey,_vertKey);

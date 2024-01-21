@@ -1,6 +1,8 @@
 //variables for movement
 moveDir = 0;
-moveSpd = 3;
+slowSpd = 3;
+dashSpd = 10;
+moveSpd = slowSpd;
 xspd = 0;
 yspd = 0;
 cooldown = 5;
