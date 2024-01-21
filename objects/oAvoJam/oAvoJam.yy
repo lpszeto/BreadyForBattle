@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Jams",
-    "path": "folders/Objects/Jams.yy",
+    "path": "folders/Assets/Items/Jams.yy",
   },
   "parentObjectId": {
     "name": "FatherJam",

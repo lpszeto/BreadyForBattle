@@ -13,7 +13,7 @@
   "out_tilevborder": 2,
   "parent": {
     "name": "background",
-    "path": "folders/Objects/background.yy",
+    "path": "folders/Assets/background.yy",
   },
   "spriteId": {
     "name": "bg_placeholder",

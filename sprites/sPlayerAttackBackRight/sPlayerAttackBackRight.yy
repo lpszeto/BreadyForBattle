@@ -29,7 +29,7 @@
   "origin": 9,
   "parent": {
     "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "path": "folders/Assets/Player.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
