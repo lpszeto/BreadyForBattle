@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e4498b53-bb48-4a63-abfd-6f267a53dc34","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 4,
   "parent": {
     "name": "TitleScreen",
     "path": "folders/Objects/TitleScreen.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 1024,
-    "yorigin": 1024,
+    "yorigin": 512,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
