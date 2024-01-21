@@ -1,12 +1,13 @@
 //variables for movement
 moveDir = 0;
-moveSpd = 2;
+moveSpd = 3;
 xspd = 0;
 yspd = 0;
 cooldown = 5;
 spreadOn = false;
 attackStart = false;
 attackFace = 3;
+canDash = true;
 
 jar_break_bool = false;
 
