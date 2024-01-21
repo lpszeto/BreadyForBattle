@@ -52,8 +52,8 @@ attackKey = mouse_check_button(mb_left);
 	}
 	//stationary during attack
 	if cooldown > 0 {
-		xspd /= 8;
-		yspd /= 8;
+		xspd /= 2;
+		yspd /= 2;
 	}
 	//move the player
 	x += xspd;
@@ -94,6 +94,7 @@ attackKey = mouse_check_button(mb_left);
 	attackStart = false;
 	if cooldown <= 0 {
 		attackFace = face;
+		ds_list_clear(hitByAttack);
 		if attackKey {
 			attackStart = true;
 			currentSprite = spriteAttack;
@@ -106,7 +107,7 @@ attackKey = mouse_check_button(mb_left);
 		} else {
 			mask_index = sprite[3];
 			sprite_index = currentSprite[face];
-			ds_list_clear(hitByAttack);
+			
 		}
 	}
 	
