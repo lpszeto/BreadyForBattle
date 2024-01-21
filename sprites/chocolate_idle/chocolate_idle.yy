@@ -27,7 +27,7 @@
   "origin": 0,
   "parent": {
     "name": "Jam Sprites",
-    "path": "folders/Objects/Jams/Jam Sprites.yy",
+    "path": "folders/Assets/Items/Jams/Jam Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

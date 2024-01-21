@@ -27,7 +27,7 @@
   "origin": 0,
   "parent": {
     "name": "Straw Sprites",
-    "path": "folders/Objects/Enemy/Strawberry/Straw Sprites.yy",
+    "path": "folders/Assets/Enemy/Strawberry/Straw Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

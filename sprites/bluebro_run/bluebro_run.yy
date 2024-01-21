@@ -33,7 +33,7 @@
   "origin": 0,
   "parent": {
     "name": "Bluebro Sprites",
-    "path": "folders/Objects/Enemy/Bluebro/Bluebro Sprites.yy",
+    "path": "folders/Assets/Enemy/Bluebro/Bluebro Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
