@@ -5,25 +5,44 @@ upKey = keyboard_check(ord("W"));
 downKey = keyboard_check(ord("S"));
 attackKey = mouse_check_button(mb_left);
 
-// Define coordinate locations
+
+
 
 //player movement 
 #region
 	//get the direction
 	var _horizKey = rightKey - leftKey;
 	var _vertKey = downKey - upKey;
-	moveDir = point_direction(0,0,_horizKey,_vertKey);
 	
-	//get x and y speed
-	// Also handles diagonal movement clamping
-	var _spd = 0;	
-	var _inputlevel = point_distance(0,0,_horizKey,_vertKey);
-	_inputlevel = clamp(_inputlevel, 0 , 1 );
-	_spd = moveSpd * _inputlevel;
+	//dash mechanic
+	if (keyboard_check_pressed(vk_space) and canDash) {
+	    moveSpd = 10;
+		canDash = false;
+		alarm[0] = 10;
+		moveDir = point_direction(0,0,_horizKey,_vertKey);
 	
-	xspd = lengthdir_x( _spd, moveDir);
-	yspd = lengthdir_y( _spd, moveDir);
+		//get x and y speed
+		// Also handles diagonal movement clamping
+		var _spd = 0;	
+		var _inputlevel = point_distance(0,0,_horizKey,_vertKey);
+		_inputlevel = clamp(_inputlevel, 0 , 1 );
+		_spd = moveSpd * _inputlevel;
 	
+		xspd = lengthdir_x( _spd, moveDir);
+		yspd = lengthdir_y( _spd, moveDir);
+	} else {
+		moveDir = point_direction(0,0,_horizKey,_vertKey);
+	
+		//get x and y speed
+		// Also handles diagonal movement clamping
+		var _spd = 0;	
+		var _inputlevel = point_distance(0,0,_horizKey,_vertKey);
+		_inputlevel = clamp(_inputlevel, 0 , 1 );
+		_spd = moveSpd * _inputlevel;
+	
+		xspd = lengthdir_x( _spd, moveDir);
+		yspd = lengthdir_y( _spd, moveDir);
+	}
 	// wall collisions 
 	if place_meeting(x+xspd,y,oWall) {
 		xspd = 0;
@@ -103,3 +122,4 @@ if (keyboard_check_pressed(ord("R"))) {
 	newObj.image_xscale = 1;
 	newObj.image_yscale = 1;
 }
+
