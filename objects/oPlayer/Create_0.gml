@@ -3,11 +3,14 @@ moveDir = 0;
 moveSpd = 2;
 xspd = 0;
 yspd = 0;
-cooldown = 0;
+cooldown = 5;
 spreadOn = false;
 attackStart = false;
+attackFace = 3;
 
 jar_break_bool = false;
+
+hitByAttack = ds_list_create();
 
 //sprite control
 #region

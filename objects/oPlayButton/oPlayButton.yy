@@ -1,17 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oBluebroEnemy",
-  "eventList": [],
+  "name": "oPlayButton",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Bluebro",
-    "path": "folders/Objects/Enemy/Bluebro.yy",
+    "name": "TitleScreen",
+    "path": "folders/Objects/TitleScreen.yy",
   },
   "parentObjectId": {
-    "name": "oEnemy",
-    "path": "objects/oEnemy/oEnemy.yy",
+    "name": "oButtonParent",
+    "path": "objects/oButtonParent/oButtonParent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "bluebro_idle",
-    "path": "sprites/bluebro_idle/bluebro_idle.yy",
+    "name": "sPlayButton",
+    "path": "sprites/sPlayButton/sPlayButton.yy",
   },
   "spriteMaskId": null,
   "visible": true,

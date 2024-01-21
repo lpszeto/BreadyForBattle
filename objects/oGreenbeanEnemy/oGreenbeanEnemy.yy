@@ -9,7 +9,10 @@
     "name": "Greenbean sprite",
     "path": "folders/Objects/Enemy/Greenbean sprite.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oEnemy",
+    "path": "objects/oEnemy/oEnemy.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
