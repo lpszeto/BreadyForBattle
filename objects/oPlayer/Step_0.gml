@@ -18,7 +18,7 @@ attackKey = mouse_check_button(mb_left);
 	if (keyboard_check_pressed(vk_space) and canDash) {
 	    moveSpd = dashSpd;
 		canDash = false;
-		alarm[0] = 10;
+		alarm[0] = 20;
 		moveDir = point_direction(0,0,_horizKey,_vertKey);
 	
 		//get x and y speed
