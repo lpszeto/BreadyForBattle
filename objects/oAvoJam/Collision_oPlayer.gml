@@ -6,9 +6,17 @@ if !tellPlayer {
 	oPlayer.jar_break_bool = true;
 	
 	if oPlayer.numSpreads % 2 == 0 {
-		oPlayer.spriteLColor = spriteColor;
+		if oPlayer.spriteLColor != spriteColor {
+			oPlayer.spriteLColor = spriteColor;
+		} else {
+			oPlayer.spriteRColor = spriteColor;
+		}
 	} else {
-		oPlayer.spriteRColor = spriteColor;
+		if oPlayer.spriteRColor != spriteColor {
+			oPlayer.spriteRColor = spriteColor;
+		} else {
+			oPlayer.spriteLColor = spriteColor;
+		}
 	}
 }
 destroy_me = true; // This seems to delay the instance_destroy until the animation is over
