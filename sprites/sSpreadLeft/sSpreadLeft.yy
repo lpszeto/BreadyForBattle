@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 7,
   "parent": {
-    "name": "Spread",
-    "path": "folders/Assets/Player/Spread.yy",
+    "name": "fulljam",
+    "path": "folders/Assets/Player/Spread/fulljam.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

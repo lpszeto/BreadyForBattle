@@ -113,8 +113,9 @@ attackKey = mouse_check_button(mb_left);
 	
 #endregion
 
-if mouse_check_button_pressed(mb_right) || jar_break_bool{ 
-	spreadOn = !spreadOn;
+if /*mouse_check_button_pressed(mb_right) ||*/ jar_break_bool{ 
+	numSpreads += 1;
+	//spreadOn = !spreadOn;
 	jar_break_bool = false;
 }
 

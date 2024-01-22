@@ -1,27 +1,64 @@
 draw_self();
 
-spriteSpread[2] = sSpreadLeft;
+/*spriteSpread[2] = sSpreadLeft;
 spriteSpread[3] = sSpreadRight;
 
 spriteSpreadWalk[2] = sSpreadWalkLeft;
 spriteSpreadWalk[3] = sSpreadWalkRight;
 
 spriteSpreadAttack[2] = sSpreadAttackLeft;
-spriteSpreadAttack[3] = sSpreadAttackRight;
+spriteSpreadAttack[3] = sSpreadAttackRight;*/
 
-if spreadOn {
+spriteSpreadL[2] = sSpreadLeftL;
+spriteSpreadL[3] = sSpreadRightL;
+spriteSpreadR[2] = sSpreadLeftR;
+spriteSpreadR[3] = sSpreadRightR;
+
+
+spriteSpreadWalkL[2] = sSpreadWalkLeftL;
+spriteSpreadWalkL[3] = sSpreadWalkRightL;
+spriteSpreadWalkR[2] = sSpreadWalkLeftR;
+spriteSpreadWalkR[3] = sSpreadWalkRightR;
+
+spriteSpreadAttackL[2] = sSpreadAttackLeftL;
+spriteSpreadAttackL[3] = sSpreadAttackRightL;
+spriteSpreadAttackR[2] = sSpreadAttackLeftR;
+spriteSpreadAttackR[3] = sSpreadAttackRightR;
+
+
+
+
+
+
+if numSpreads > 0 {
 	if face > 1 {
 		if currentSprite == sprite {
-			spriteToDraw = spriteSpread[face]
-			draw_sprite_ext( spriteToDraw, image_index, x, y, image_xscale, image_yscale, 0, c_white, 0.5  );
+			spriteToDrawL = spriteSpreadL[face]
+			draw_sprite_ext( spriteToDrawL, image_index, x, y, image_xscale, image_yscale, 0, spriteLColor, 0.5  );
 		} else if currentSprite == spriteWalk {
-			spriteToDraw = spriteSpreadWalk[face]
-			draw_sprite_ext( spriteToDraw, image_index, x, y, image_xscale, image_yscale, 0, c_white, 0.5  );
+			spriteToDrawL = spriteSpreadWalkL[face]
+			draw_sprite_ext( spriteToDrawL, image_index, x, y, image_xscale, image_yscale, 0, spriteLColor, 0.5  );
 		} 
 	} if attackFace > 1 {
 		if currentSprite == spriteAttack and cooldown >= 0 {
-			spriteToDraw = spriteSpreadAttack[attackFace];
-			draw_sprite_ext( spriteToDraw, image_index, x, y, image_xscale, image_yscale, 0, c_white, 0.5  );
+			spriteToDrawL = spriteSpreadAttackL[attackFace];
+			draw_sprite_ext( spriteToDrawL, image_index, x, y, image_xscale, image_yscale, 0, spriteLColor, 0.5  );
+		}
+	}
+}
+if numSpreads > 1 {
+	if face > 1 {
+		if currentSprite == sprite {
+			spriteToDrawR = spriteSpreadR[face]
+			draw_sprite_ext( spriteToDrawR, image_index, x, y, image_xscale, image_yscale, 0, spriteRColor, 0.5  );
+		} else if currentSprite == spriteWalk {
+			spriteToDrawR = spriteSpreadWalkR[face]
+			draw_sprite_ext( spriteToDrawR, image_index, x, y, image_xscale, image_yscale, 0, spriteRColor, 0.5  );
+		} 
+	} if attackFace > 1 {
+		if currentSprite == spriteAttack and cooldown >= 0 {
+			spriteToDrawR = spriteSpreadAttackR[attackFace];
+			draw_sprite_ext( spriteToDrawR, image_index, x, y, image_xscale, image_yscale, 0, spriteRColor, 0.5  );
 		}
 	}
 } 
