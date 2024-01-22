@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Tilemap",
-    "path": "folders/Tilemap.yy",
+    "name": "obstacles",
+    "path": "folders/Tilemap/obstacles.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
