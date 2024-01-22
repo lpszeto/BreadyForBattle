@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sSlashRight",
-    "path": "sprites/sSlashRight/sSlashRight.yy",
+    "name": "sSlashRightAccurate",
+    "path": "sprites/sSlashRightAccurate/sSlashRightAccurate.yy",
   },
   "spriteMaskId": null,
   "visible": true,

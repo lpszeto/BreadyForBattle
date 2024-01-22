@@ -44,10 +44,10 @@ attackKey = mouse_check_button(mb_left);
 		yspd = lengthdir_y( _spd, moveDir);
 	}
 	// wall collisions 
-	if place_meeting(x+xspd,y,oWall) {
+	if place_meeting(x+xspd,y,oWall) or place_meeting(x+xspd,y,oEnemy) {
 		xspd = 0;
 	}
-	if place_meeting(x,y+yspd,oWall) {
+	if place_meeting(x,y+yspd,oWall) or place_meeting(x,y+yspd,oEnemy) {
 		yspd = 0;
 	}
 	//stationary during attack
