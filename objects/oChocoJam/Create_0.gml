@@ -1,2 +1,2 @@
 event_inherited();
-spriteColor = c_maroon;
+spriteColor = #4B3818;
