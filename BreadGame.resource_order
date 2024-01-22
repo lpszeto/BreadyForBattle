@@ -51,6 +51,7 @@
     {"name":"oStrawJam","order":6,"path":"objects/oStrawJam/oStrawJam.yy",},
     {"name":"oFullscreen","order":4,"path":"objects/oFullscreen/oFullscreen.yy",},
     {"name":"sSpreadWalkLeftL","order":9,"path":"sprites/sSpreadWalkLeftL/sSpreadWalkLeftL.yy",},
+    {"name":"toaster_atk","order":1,"path":"sprites/toaster_atk/toaster_atk.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"sSpreadWalkRightR","order":18,"path":"sprites/sSpreadWalkRightR/sSpreadWalkRightR.yy",},
     {"name":"rmInitialize","order":1,"path":"rooms/rmInitialize/rmInitialize.yy",},

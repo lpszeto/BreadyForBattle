@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "healthbar",
+    "path": "sprites/healthbar/healthbar.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
