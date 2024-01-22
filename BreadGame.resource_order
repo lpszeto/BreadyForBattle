@@ -43,6 +43,7 @@
     {"name":"fork","order":24,"path":"sprites/fork/fork.yy",},
     {"name":"bluebro_atk","order":1,"path":"sprites/bluebro_atk/bluebro_atk.yy",},
     {"name":"oStrawJam","order":6,"path":"objects/oStrawJam/oStrawJam.yy",},
+    {"name":"oFullscreen","order":4,"path":"objects/oFullscreen/oFullscreen.yy",},
     {"name":"sSpreadWalkLeftL","order":9,"path":"sprites/sSpreadWalkLeftL/sSpreadWalkLeftL.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"sSpreadWalkRightR","order":18,"path":"sprites/sSpreadWalkRightR/sSpreadWalkRightR.yy",},

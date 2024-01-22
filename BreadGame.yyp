@@ -78,6 +78,7 @@
     {"id":{"name":"bluebro_atk","path":"sprites/bluebro_atk/bluebro_atk.yy",},},
     {"id":{"name":"oSolidWall","path":"objects/oSolidWall/oSolidWall.yy",},},
     {"id":{"name":"oStrawJam","path":"objects/oStrawJam/oStrawJam.yy",},},
+    {"id":{"name":"oFullscreen","path":"objects/oFullscreen/oFullscreen.yy",},},
     {"id":{"name":"sSpreadWalkLeftL","path":"sprites/sSpreadWalkLeftL/sSpreadWalkLeftL.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"straw_run","path":"sprites/straw_run/straw_run.yy",},},

@@ -47,6 +47,11 @@ if numSpreads > 0 {
 	}
 }
 if numSpreads > 1 {
+	if mouse_check_button_pressed(mb_middle) {
+		tempSpreadColor = spriteLColor;
+		spriteLColor = spriteRColor;
+		spriteRColor = tempSpreadColor;
+	}
 	if face > 1 {
 		if currentSprite == sprite {
 			spriteToDrawR = spriteSpreadR[face]
