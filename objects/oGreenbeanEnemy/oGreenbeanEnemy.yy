@@ -32,6 +32,9 @@
     "name": "greenbean_idle",
     "path": "sprites/greenbean_idle/greenbean_idle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "greenbean_idle",
+    "path": "sprites/greenbean_idle/greenbean_idle.yy",
+  },
   "visible": true,
 }

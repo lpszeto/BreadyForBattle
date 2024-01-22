@@ -32,6 +32,9 @@
     "name": "toaster_jump",
     "path": "sprites/toaster_jump/toaster_jump.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "toaster_jump",
+    "path": "sprites/toaster_jump/toaster_jump.yy",
+  },
   "visible": true,
 }

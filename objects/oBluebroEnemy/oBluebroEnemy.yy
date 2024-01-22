@@ -32,6 +32,9 @@
     "name": "bluebro_idle",
     "path": "sprites/bluebro_idle/bluebro_idle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "bluebro_idle",
+    "path": "sprites/bluebro_idle/bluebro_idle.yy",
+  },
   "visible": true,
 }

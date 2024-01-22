@@ -32,6 +32,9 @@
     "name": "straw_idle",
     "path": "sprites/straw_idle/straw_idle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "straw_idle",
+    "path": "sprites/straw_idle/straw_idle.yy",
+  },
   "visible": true,
 }
