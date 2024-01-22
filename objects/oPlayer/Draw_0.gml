@@ -34,15 +34,15 @@ if numSpreads > 0 {
 	if face > 1 {
 		if currentSprite == sprite {
 			spriteToDrawL = spriteSpreadL[face]
-			draw_sprite_ext( spriteToDrawL, image_index, x, y, image_xscale, image_yscale, 0, spriteLColor, 0.5  );
+			draw_sprite_ext( spriteToDrawL, image_index, x, y, image_xscale, image_yscale, 0, spriteLColor, 0.9  );
 		} else if currentSprite == spriteWalk {
 			spriteToDrawL = spriteSpreadWalkL[face]
-			draw_sprite_ext( spriteToDrawL, image_index, x, y, image_xscale, image_yscale, 0, spriteLColor, 0.5  );
+			draw_sprite_ext( spriteToDrawL, image_index, x, y, image_xscale, image_yscale, 0, spriteLColor, 0.9  );
 		} 
 	} if attackFace > 1 {
 		if currentSprite == spriteAttack and cooldown >= 0 {
 			spriteToDrawL = spriteSpreadAttackL[attackFace];
-			draw_sprite_ext( spriteToDrawL, image_index, x, y, image_xscale, image_yscale, 0, spriteLColor, 0.5  );
+			draw_sprite_ext( spriteToDrawL, image_index, x, y, image_xscale, image_yscale, 0, spriteLColor, 0.9  );
 		}
 	}
 }
@@ -50,15 +50,15 @@ if numSpreads > 1 {
 	if face > 1 {
 		if currentSprite == sprite {
 			spriteToDrawR = spriteSpreadR[face]
-			draw_sprite_ext( spriteToDrawR, image_index, x, y, image_xscale, image_yscale, 0, spriteRColor, 0.5  );
+			draw_sprite_ext( spriteToDrawR, image_index, x, y, image_xscale, image_yscale, 0, spriteRColor, 0.9  );
 		} else if currentSprite == spriteWalk {
 			spriteToDrawR = spriteSpreadWalkR[face]
-			draw_sprite_ext( spriteToDrawR, image_index, x, y, image_xscale, image_yscale, 0, spriteRColor, 0.5  );
+			draw_sprite_ext( spriteToDrawR, image_index, x, y, image_xscale, image_yscale, 0, spriteRColor, 0.9  );
 		} 
 	} if attackFace > 1 {
 		if currentSprite == spriteAttack and cooldown >= 0 {
 			spriteToDrawR = spriteSpreadAttackR[attackFace];
-			draw_sprite_ext( spriteToDrawR, image_index, x, y, image_xscale, image_yscale, 0, spriteRColor, 0.5  );
+			draw_sprite_ext( spriteToDrawR, image_index, x, y, image_xscale, image_yscale, 0, spriteRColor, 0.9  );
 		}
 	}
 } 
