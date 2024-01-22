@@ -1,13 +1,18 @@
 //variables for movement
 moveDir = 0;
-moveSpd = 3;
+slowSpd = 3;
+dashSpd = 10;
+moveSpd = slowSpd;
 xspd = 0;
 yspd = 0;
 cooldown = 5;
-spreadOn = false;
+//spreadOn = false;
 attackStart = false;
 attackFace = 3;
 canDash = true;
+numSpreads = 0;
+spriteLColor = c_white;
+spriteRColor = c_white;
 
 jar_break_bool = false;
 
@@ -38,7 +43,24 @@ hitByAttack = ds_list_create();
 	spriteAttack[1] = sPlayerAttackBackLeft;
 	spriteAttack[2] = sPlayerAttackLeft;
 	spriteAttack[3] = sPlayerAttackRight;
+	
+	//Spread masks
+	spriteSpreadL[2] = sSpreadLeftL;
+	spriteSpreadL[3] = sSpreadRightL;
+	spriteSpreadR[2] = sSpreadLeftR;
+	spriteSpreadR[3] = sSpreadRightR;
 
+
+	spriteSpreadWalkL[2] = sSpreadWalkLeftL;
+	spriteSpreadWalkL[3] = sSpreadWalkRightL;
+	spriteSpreadWalkR[2] = sSpreadWalkLeftR;
+	spriteSpreadWalkR[3] = sSpreadWalkRightR;
+
+	spriteSpreadAttackL[2] = sSpreadAttackLeftL;
+	spriteSpreadAttackL[3] = sSpreadAttackRightL;
+	spriteSpreadAttackR[2] = sSpreadAttackLeftR;
+	spriteSpreadAttackR[3] = sSpreadAttackRightR;
+/*
 	spriteSpread[2] = sSpreadLeft;
 	spriteSpread[3] = sSpreadRight;
 
@@ -49,7 +71,9 @@ hitByAttack = ds_list_create();
 	spriteSpreadAttack[3] = sSpreadAttackRight;
 
 	spriteToDraw = sSpreadRight;
-
+*/
+	spriteToDrawL = sSpreadRightL;
+	spriteToDrawR = sSpreadRightR;
 	currentSprite = sprite;
 	sprite_index = currentSprite[face];
 #endregion

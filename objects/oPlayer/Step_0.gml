@@ -16,7 +16,7 @@ attackKey = mouse_check_button(mb_left);
 	
 	//dash mechanic
 	if (keyboard_check_pressed(vk_space) and canDash) {
-	    moveSpd = 10;
+	    moveSpd = dashSpd;
 		canDash = false;
 		alarm[0] = 10;
 		moveDir = point_direction(0,0,_horizKey,_vertKey);
@@ -113,8 +113,9 @@ attackKey = mouse_check_button(mb_left);
 	
 #endregion
 
-if mouse_check_button_pressed(mb_right) || jar_break_bool{ 
-	spreadOn = !spreadOn;
+if /*mouse_check_button_pressed(mb_right) ||*/ jar_break_bool{ 
+	numSpreads += 1;
+	//spreadOn = !spreadOn;
 	jar_break_bool = false;
 }
 
