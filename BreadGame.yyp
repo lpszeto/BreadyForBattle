@@ -130,6 +130,7 @@
     {"id":{"name":"sPlayerBackRight","path":"sprites/sPlayerBackRight/sPlayerBackRight.yy",},},
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},
     {"id":{"name":"sPlayerRight","path":"sprites/sPlayerRight/sPlayerRight.yy",},},
+    {"id":{"name":"shFlash","path":"shaders/shFlash/shFlash.yy",},},
     {"id":{"name":"counter3","path":"sprites/counter3/counter3.yy",},},
     {"id":{"name":"bluebro_run","path":"sprites/bluebro_run/bluebro_run.yy",},},
     {"id":{"name":"Blue_and_Yellow_Tile_Sprite_Sheet","path":"sprites/Blue_and_Yellow_Tile_Sprite_Sheet/Blue_and_Yellow_Tile_Sprite_Sheet.yy",},},

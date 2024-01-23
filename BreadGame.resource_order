@@ -88,6 +88,7 @@
     {"name":"sPlayerBackRight","order":7,"path":"sprites/sPlayerBackRight/sPlayerBackRight.yy",},
     {"name":"sPlayerLeft","order":8,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
     {"name":"sPlayerRight","order":9,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
+    {"name":"shFlash","order":3,"path":"shaders/shFlash/shFlash.yy",},
     {"name":"counter3","order":2,"path":"sprites/counter3/counter3.yy",},
     {"name":"bluebro_run","order":2,"path":"sprites/bluebro_run/bluebro_run.yy",},
     {"name":"Blue_and_Yellow_Tile_Sprite_Sheet","order":14,"path":"sprites/Blue_and_Yellow_Tile_Sprite_Sheet/Blue_and_Yellow_Tile_Sprite_Sheet.yy",},
