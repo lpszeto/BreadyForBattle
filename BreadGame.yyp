@@ -55,8 +55,10 @@
   },
   "resources": [
     {"id":{"name":"plate","path":"sprites/plate/plate.yy",},},
+    {"id":{"name":"bluebro_death","path":"sprites/bluebro_death/bluebro_death.yy",},},
     {"id":{"name":"brokenplate","path":"sprites/brokenplate/brokenplate.yy",},},
     {"id":{"name":"sSpreadAttackRightR","path":"sprites/sSpreadAttackRightR/sSpreadAttackRightR.yy",},},
+    {"id":{"name":"straw_death","path":"sprites/straw_death/straw_death.yy",},},
     {"id":{"name":"FatherJam","path":"objects/FatherJam/FatherJam.yy",},},
     {"id":{"name":"oAvoJam","path":"objects/oAvoJam/oAvoJam.yy",},},
     {"id":{"name":"sSlashBackLeft","path":"sprites/sSlashBackLeft/sSlashBackLeft.yy",},},

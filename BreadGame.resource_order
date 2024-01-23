@@ -30,8 +30,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"plate","order":9,"path":"sprites/plate/plate.yy",},
+    {"name":"bluebro_death","order":3,"path":"sprites/bluebro_death/bluebro_death.yy",},
     {"name":"brokenplate","order":2,"path":"sprites/brokenplate/brokenplate.yy",},
     {"name":"sSpreadAttackRightR","order":14,"path":"sprites/sSpreadAttackRightR/sSpreadAttackRightR.yy",},
+    {"name":"straw_death","order":3,"path":"sprites/straw_death/straw_death.yy",},
     {"name":"oAvoJam","order":1,"path":"objects/oAvoJam/oAvoJam.yy",},
     {"name":"sSlashBackLeft","order":6,"path":"sprites/sSlashBackLeft/sSlashBackLeft.yy",},
     {"name":"sSpreadRightL","order":8,"path":"sprites/sSpreadRightL/sSpreadRightL.yy",},

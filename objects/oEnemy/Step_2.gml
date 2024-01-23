@@ -4,12 +4,12 @@ if state != states.DEAD
 {
 	if hp <= 0 and alarm[0] == -1 {
 		state = states.DEAD;
-		alarm[0] = 10;
+		sprite_index = 0;
+		alarm[0] = 50;
 	}
 }
 
-
-if prevHP > hp {
+if prevHP > hp and prevHP > 0 {
 	prevHP = hp;
 	flashAlpha = 1;
 }

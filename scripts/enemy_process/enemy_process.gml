@@ -80,13 +80,13 @@ function enemy_anim()
 		break;
 	
 		case states.DEAD:
-	
+			sprite_index = s_death;
 		break;
 	
 	}
 	depth = - bbox_bottom;
 	xp = x;
-	yp = x;
+	yp = x; //SHOULD THIS BE x OR y?
 }
 
 function check_if_stopped() 
