@@ -8,15 +8,5 @@ if state != states.DEAD
 	}
 }
 
-
-if prevHP > hp {
-	prevHP = hp;
-	flashAlpha = 1;
-}
-
 image_blend = c_white;
 
-
-if flashAlpha > 0 {
-	flashAlpha -= 0.05;
-}

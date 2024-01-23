@@ -8,14 +8,14 @@ if state != states.DEAD
 	}
 }
 
-
+<<<<<<< HEAD
 if prevHP > hp {
 	prevHP = hp;
 	flashAlpha = 1;
 }
-
+=======
 image_blend = c_white;
-
+>>>>>>> upstream/main
 
 if flashAlpha > 0 {
 	flashAlpha -= 0.05;
