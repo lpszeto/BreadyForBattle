@@ -14,6 +14,12 @@ if oPlayer.attackStart {
 				show_debug_message(_hitID);
 				with (_hitID) {
 					hp -= 10;
+					_hitID.image_blend = c_red;
+					if hp = 0 var _dis = 7 else var _dis = 3;
+					var _dir = point_direction(_hitID.x, _hitID.y, x, y);
+					hsp += lengthdir_x(_dis, _dir);
+					vsp += lengthdir_y(_dis, _dir);
+					calc_path_delay = 5;
 				}
 			}	
 		}

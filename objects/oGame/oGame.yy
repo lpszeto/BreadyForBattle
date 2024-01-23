@@ -1,20 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oStrawberryEnemy",
+  "name": "oGame",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Strawberry",
-    "path": "folders/Assets/Enemy/Strawberry.yy",
+    "name": "BreadGame",
+    "path": "BreadGame.yyp",
   },
-  "parentObjectId": {
-    "name": "oEnemy",
-    "path": "objects/oEnemy/oEnemy.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,13 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "straw_idle",
-    "path": "sprites/straw_idle/straw_idle.yy",
-  },
-  "spriteMaskId": {
-    "name": "straw_idle",
-    "path": "sprites/straw_idle/straw_idle.yy",
-  },
+  "spriteId": null,
+  "spriteMaskId": null,
   "visible": true,
 }
