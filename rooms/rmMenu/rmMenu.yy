@@ -11,6 +11,7 @@
     {"name":"inst_CC4828E","path":"rooms/rmMenu/rmMenu.yy",},
     {"name":"inst_4E927DA7","path":"rooms/rmMenu/rmMenu.yy",},
     {"name":"inst_57FDB108","path":"rooms/rmMenu/rmMenu.yy",},
+    {"name":"inst_7A2A4997","path":"rooms/rmMenu/rmMenu.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -19,6 +20,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_CC4828E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayButton","path":"objects/oPlayButton/oPlayButton.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":1088.0,"y":1168.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E927DA7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oQuitButton","path":"objects/oQuitButton/oQuitButton.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":1632.0,"y":1168.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57FDB108","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oFullscreen","path":"objects/oFullscreen/oFullscreen.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":64.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A2A4997","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGame","path":"objects/oGame/oGame.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_6A62D362","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.9376855,"scaleY":0.93768543,"spriteId":{"name":"sTitleScreen","path":"sprites/sTitleScreen/sTitleScreen.yy",},"x":960.0,"y":1080.0,},
