@@ -28,9 +28,8 @@ switch (state)
 	break;
 	
 	case states.DEAD:
-		calc_entity_movement();
-		enemy_anim();
+	enemy_anim();
+	path_end();
 	break;
-	
 }
 
