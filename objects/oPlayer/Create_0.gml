@@ -1,3 +1,9 @@
+// Player stats
+player_health = 100;
+player_max_health = player_health;
+ 
+wealth = 0;
+
 //variables for movement
 moveDir = 0;
 slowSpd = 3;

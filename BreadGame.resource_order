@@ -26,6 +26,7 @@
     {"name":"furniture","order":35,"path":"folders/Tilemap/furniture.yy",},
     {"name":"obstacles","order":34,"path":"folders/Tilemap/obstacles.yy",},
     {"name":"Scripts","order":6,"path":"folders/Scripts.yy",},
+    {"name":"Chest","order":4,"path":"folders/Assets/Items/Chest.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"plate","order":9,"path":"sprites/plate/plate.yy",},
@@ -124,6 +125,7 @@
     {"name":"pantry","order":5,"path":"sprites/pantry/pantry.yy",},
     {"name":"straw_atk","order":2,"path":"sprites/straw_atk/straw_atk.yy",},
     {"name":"sSpreadWalkLeft","order":4,"path":"sprites/sSpreadWalkLeft/sSpreadWalkLeft.yy",},
+    {"name":"chest_closed","order":3,"path":"sprites/chest_closed/chest_closed.yy",},
     {"name":"oStrawberryEnemy","order":1,"path":"objects/oStrawberryEnemy/oStrawberryEnemy.yy",},
     {"name":"sSpreadWalkRight","order":5,"path":"sprites/sSpreadWalkRight/sSpreadWalkRight.yy",},
     {"name":"sSpreadAttackRightL","order":6,"path":"sprites/sSpreadAttackRightL/sSpreadAttackRightL.yy",},
