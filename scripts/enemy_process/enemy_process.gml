@@ -1,13 +1,36 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
+function calc_knockback_movement()
+{
+	x += hsp;
+	y += vsp;
+	
+	hsp *= 0.91;
+	vsp *= 0.91;
+	
+	check_if_stopped();
+	
+}
+function calc_entity_movement() 
+{
+	x += hsp;
+	y += vsp;
+	
+	hsp *= global.drag;
+	vsp *= global.drag;
+	
+	check_if_stopped();
+}
+
 function check_facing() 
 {
 	var _facing = sign(xp-x);
 	if _facing !=0 facing = _facing;
 }
 
-function check_for_player(){
+function check_for_player()
+{
 	///@desc check if player is close enough to chase
 	
 	var _dis = distance_to_object(oPlayer);
@@ -39,7 +62,8 @@ function check_for_player(){
 	}
 }
 
-function enemy_anim(){
+function enemy_anim()
+{
 	// You can write your code in this editor
 	switch (state) 
 	{
@@ -60,6 +84,13 @@ function enemy_anim(){
 		break;
 	
 	}
+	depth = - bbox_bottom;
 	xp = x;
 	yp = x;
+}
+
+function check_if_stopped() 
+{
+	if abs(hsp) < 0.1 hsp = 0;
+	if abs(vsp) < 0.1 vsp = 0;
 }

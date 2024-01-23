@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "enemy_process",
+  "name": "macros_enums",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
